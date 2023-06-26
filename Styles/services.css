@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+.service{
+    text-align: center;
+    border-bottom: 20%;
+    color: black;
+    border-bottom: 5px solid orange;
+}
+
+span{
+    color: red;
+}
+
+.Lorem{
+    text-align: center;
+    font-size: 21px;
+}
