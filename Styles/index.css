@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../Images/The\ branch\ background.PNG);
+    background-color: black;
+    background-size: cover;
+    color: #fff;
+}
+
+
+#header {
+    top: 4px;
+    background-size: contain; /* or use "auto" for original size */
+    background-repeat: no-repeat;
+    background-position: right; /* or "left top" to align to top left */
+}
+
+.header {
+    background: #fff;
+    background-color: transparent;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+.logo {
+    line-height: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #2271b7;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #0088ff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 35px;
+    font-weight: 100PX;
+}
+
+.header-text h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.header-text p {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 27px;
+}
+
+
+span {
+    color: #005eff;
+    font-weight: bold;
+}
+
+
+footer .copyright {
+    font-weight: bold;
+    margin-top: 13%;
+    text-align: center;
+    background-color: #fff;
+    background: transparent;
+}
