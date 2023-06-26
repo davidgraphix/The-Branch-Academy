@@ -1,5 +1,7 @@
 body{
-    background-color: white;
+    margin: 0px; 
+    background: white 
+    height: 100%;
 }
 
 .service{
@@ -17,3 +19,4 @@ span{
     text-align: center;
     font-size: 21px;
 }
+
